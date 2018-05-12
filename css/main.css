@@ -1,0 +1,308 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+p {
+	font-family: HelveticaNeue;
+}
+
+h2 {
+	font-family: Raleway;
+}
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1170px;
+}
+
+header {
+	background-size: cover;
+	background-image: url("../img/header.jpg");
+	background-repeat: no-repeat;
+	display: block;
+	min-height: 55%;
+	max-height: 70%;
+}
+
+.logo {
+	margin: 10% 0 0 70px;
+	width: 18%;
+}
+
+header p {
+	font-family: arial;
+	font-size: 24px;
+	color: white;
+	margin-left: 50px;
+	margin-top: 30px;
+	font-weight: 500;
+}
+
+header i {
+	font-size: 23px;
+	padding: 15px;
+	margin-left: 2%;
+	margin-top: 50px;
+	background-color: #000;
+	opacity: 0.5;
+}
+
+header i:first-child {
+	margin-left: 50px;
+}
+
+.section-second {
+	display: inline-block;
+	width: 100%;
+	height: 30%;
+}
+
+.features {
+	width: 30%;
+	float: left;
+	margin-top: 5%;
+	text-align: center;
+
+}
+
+.features p {
+	color: #848484;
+	margin-top: 10px;
+	padding-bottom: 5px;
+
+}
+
+.features h2 {
+	margin-top: 10px;
+}
+
+.features:first-child {
+	margin-left: 3%;
+}
+
+.features:last-child {
+	margin-right: 3%;
+}
+
+.section-third {
+	background-color: #e3e3e3;
+
+}
+
+.div-third {
+	width: 100%;
+	min-height: 45%;
+	max-height: 100%;
+
+}
+
+.section-third-left {
+	margin-left: 3%;
+	margin-top: 3%;
+	padding-top: 2%;
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+.section-third-left p {
+	font-family: HelveticaNeue;
+  color:  #848484;
+	font-size: 16px;
+	line-height: 26px;
+	margin: 2% 0;
+}
+
+.section-third-right {
+	margin: 3% 0;
+	display: inline-block;
+	vertical-align: top;
+	width: 48%;
+}
+
+input {
+	height: 5%;
+	width:50%;
+	border-radius: 15px 0 0 15px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+button {
+	height: 5%;
+	margin-left: -5px;
+	width: 20%;
+	background-color: #2ecc71;
+	border-bottom-right-radius: 15px;
+  border-top-right-radius: 15px;
+	font-size: 20px;
+	color: #fff;
+	cursor: pointer;
+}
+
+.section-forth {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 4%;
+}
+
+.section-forth em, h2 {
+	margin-top: 2%;
+}
+
+.section-forth h2 {
+	margin-bottom: 2%;
+}
+
+.fonts {
+	text-align: center;
+}
+
+i {
+	background-color: grey;
+	padding: 10px;
+	color: #fff;
+	border-radius: 50%;
+	width: 18px;
+	margin-bottom: 4%;
+	margin-top: 2%;
+}
+
+i:hover {
+	background-color: #2ecc71;
+	cursor: pointer;
+}
+
+.sl img {
+	height: 10%;
+	width: auto;
+}
+
+.sl img:hover {
+	opacity:0.5;
+
+}
+
+footer {
+	min-height: 130px;
+	bottom: 0;
+	background-color: #e3e3e3;
+}
+
+footer ul {
+	text-align: center;
+
+}
+
+footer li {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	margin-right: 5%;
+	margin-top: 57px;
+
+}
+
+footer li:last-child {
+	margin: 0;
+}
+
+footer a {
+	color: #848484;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width : 1200px) {
+		header {
+			min-height: 450px;
+		}
+		.logo {
+			width: 200px;
+			margin-top: 80px;
+		}
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+		header {
+			min-height: 430px;
+		}
+		.logo {
+			width: 200px;
+			margin-top: 80px;
+		}
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+		.logo {
+			width: 200px;
+			margin-top: 70px;
+			margin-left: 50px;
+		}
+		.section-second {
+			display: block;
+
+			margin: 0 auto;
+			height: 70%;
+		}
+		.features {
+			display: block;
+			width: 99%;
+			margin: 0 auto;
+		}
+		.features:first-child {
+			margin: 5% auto;
+		}
+
+		.features:last-child {
+			margin: 5% auto 0 auto;
+		}
+		.section-third-left, .section-third-right {
+			display: block;
+			width: 96%;
+			margin-left: 3%;
+		}
+		.section-third-right {
+			padding-bottom: 25px;
+			width: 97%;
+		}
+		.section-forth {
+			margin: 5% auto;
+		}
+		.section-forth i {
+			margin-bottom: 0;
+			margin-top: 3%;
+	}
+
+	/* Extra Small Devices, Phones */
+	@media only screen and (max-width : 482px) {
+		footer li {
+			margin-top: 40px;
+			margin-bottom: 20px;
+		}
+	}
+
+	/* Custom, iPhone Retina */
+	@media only screen and (max-width : 320px) {
+		header {
+			min-height: 380px;
+		}
+		.logo {
+			width: 75%;
+			margin-top: 40px;
+		}
+		header i:first-child {
+			margin-left: 15%;
+		}
+		footer li {
+			margin-top: 28px;
+			margin-bottom: 10px;
+		}
+	}
